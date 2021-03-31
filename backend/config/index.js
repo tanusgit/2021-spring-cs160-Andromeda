@@ -10,6 +10,7 @@ const production = {
   DB_USENAME: "cs160",
   DB_PASSWORD: "password",
   DB_DATABASE: "iBook",
+  REDIRECT: "http://localhost:5500/prototype/frontend/index.html",
 };
 
 const development = {
@@ -21,6 +22,7 @@ const development = {
   DB_USENAME: "cs160",
   DB_PASSWORD: "password",
   DB_DATABASE: "iBook",
+  REDIRECT: "http://localhost:5500/prototype/frontend/index.html",
 };
 
 module.exports = {
