@@ -19,7 +19,7 @@ const authAPI = (app) => {
       sameSite: "none",
       maxAge: 86400000, // 24 hour
     });
-    return res.status(200).redirect("http://127.0.0.1:5500/prototype/frontend/index.html");
+    return res.status(200).redirect("http://localhost:5500/prototype/frontend/index.html");
   });
 };
 
