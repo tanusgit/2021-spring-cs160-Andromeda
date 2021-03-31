@@ -3,8 +3,12 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const passport = require("./passport/index");
 const route = require("./api");
-const connection = require("./mysql.js");
+const jwt = require("express-jwt");
+const {
+  production: { SECERT },
+} = require("./config/index");
 
 // Parse Data from html forms
 app.use(bodyParser.json());
@@ -19,8 +23,18 @@ app.use(cors(corsOptions));
 // Read cookies
 app.use(cookieParser());
 
-// Establish MySQL Database Connection
-connection.connect();
+// Passport auth
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Apply jwt
+app.use(jwt({ secret: SECERT, algorithms: ["HS256"] }).unless({ path: ["/auth/google", "/auth/google/callback"] }));
+
+app.use(function (err, req, res, next) {
+  if (err.name === "UnauthorizedError") {
+    return res.redirect("http://127.0.0.1:5500/prototype/frontend/index.html");
+  }
+});
 
 // Apply Routing to the app
 route(app);
