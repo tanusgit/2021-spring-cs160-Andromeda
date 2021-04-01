@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="style/stylesheettanu.css" type="text/css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <style>
 .nav-link
 {
@@ -18,154 +19,279 @@
   font-size: 18px;
   margin: 0px;
 }
+// // https://www.vitalsource.com/
 </style>
 <title>iBook.com</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">iBook</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item">
+                    <a class="navbar-brand fa fa-book" href="#">iBook</a>
+                    
+                  </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sell</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Profile
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">sign up</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+
+                <a class="nav-link active" href="#">Sell</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign out</a>
+                  <a class="nav-link fa fa-shopping-cart active" href="#">cart</a>
+                </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Discussion
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#" >Sign in/Sing up</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" >Sign out</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
 	<div class="container-fluid">
         <img src="./home.jpg" class="img-responsive">
   </div>
-  <div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
+
+</br>
+</br> 
+  <div class="container">
+  <div class = "row">
+  </div>
+  <div class="row">
+  <div class="col-md-4">
+    
+  </div>
+  <div class="col-md-4">
+    <h1 class="title">More books</h1> 
+       
+  </div>
+  <div class="col-md-4">
+      
+  </div>
+  <div class = "row">
+
+  </div>
+  </div>
+
+</br>
+</br> 
+  <div class="row">
+      <div class="col-md-4">
+  <div class="card" style="width: 22rem; margin: 6px">
+    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/41fRAMCMu1L._SX258_BO1,204,203,200_.jpg" alt="Card image cap">
+
     <div class="card-body">
       <h5 class="card-title">Algorithm</h5>
       <p class="card-text">This is algorithm book</p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
+
+</div>
+<div class="col-md-4">
+  <div class="card" style="width: 22rem; margin: 6px">
+    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51dYmGrWCOL._SX258_BO1,204,203,200_.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">This is algorithm book</p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
-
-<div class="container-fluid">
-
-<div class="row" id="front-page-related-post">
-
-
-	<div class="col-md-6">
-	<a href="raita.html"><h1 class="title">Raita</h1></a>
-		<img src="image/raita.jpg" class="img-responsive">
-	</div>
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<div class="col-md-6">
-	<a href="onionpakora.html"><h1 class="title">onion pakora</h1></a>
-		<img src="image/onion-pakora.jpg" class="img-responsive">
-	</div>
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<div class="col-md-6">
-	<a href="rasgulla.html"><h1 class="title">Rasgulla</h1></a>
-		<img src="image/rasgulla.jpg" class="img-responsive">
-	</div>
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-
-	<div class="col-md-6">
-	<a href="mangomorobba.html"><h1 class="title">Mango murabba</h1></a>
-		<img src="image/mango.jpg" class="img-responsive">
-	</div>
-	
-	
-
+<div class="col-md-4">
+    <div class="card" style="width: 22rem; margin: 6px">
+      <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51dYmGrWCOL._SX258_BO1,204,203,200_.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is algorithm book</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
 </div>
-	<div class="col-md-6">
-	<a href="matarpaneer.html"><h1 class="title">Matar paneer</h1></a>
-		<img src="image/matar.jpg" class="img-responsive">
-	</div>
+  <div class="row">
+      <div class="row">
+          <div class="col-md-4">
+      <div class="card" style="width: 22rem; margin: 6px">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjLxDSp29Z8GD1FyOUcYwuJK4ZCbPARfukzxG6GfqtQ54Gzi8kBarys2TAdQ&usqp=CAc" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Algorithm</h5>
+          <p class="card-text">This is algorithm book</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 22rem; margin: 6px">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjLxDSp29Z8GD1FyOUcYwuJK4ZCbPARfukzxG6GfqtQ54Gzi8kBarys2TAdQ&usqp=CAc" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is algorithm book</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 22rem; margin: 6px">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjLxDSp29Z8GD1FyOUcYwuJK4ZCbPARfukzxG6GfqtQ54Gzi8kBarys2TAdQ&usqp=CAc" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is algorithm book</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+            The product is an e-commerce website where you can enlist your used books to sell for low price. The target customers are college students. They should use this website as they can get their textbooks for a low price. Unlike Amazon, we enable students from the same school to connect with one another for better convenience.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About Us</h5>
+  
+        
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Us</h5>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Books</h5>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Chat</h5>
+
+
+            
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://iBook.com/">iBook.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+
+
+
+
 	
 	</html>
