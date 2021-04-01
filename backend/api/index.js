@@ -1,5 +1,6 @@
 const textbookAPI = require("./textbook");
 const authenticationAPI = require("./authentication");
+const userAPI = require("./user");
 
 const routesConfig = (app) => {
   // serve api endpoint
@@ -7,8 +8,9 @@ const routesConfig = (app) => {
     res.send("Hello from API endpoint");
   });
 
-  textbookAPI(app);
+  // textbookAPI(app);
   authenticationAPI(app);
+  userAPI(app);
 
   app.get("*", (req, res) => {
     res.status(404).send("Not Found");
