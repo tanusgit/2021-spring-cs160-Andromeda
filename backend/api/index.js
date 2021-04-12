@@ -8,7 +8,7 @@ const routesConfig = (app) => {
     res.send("Hello from API endpoint");
   });
 
-  // textbookAPI(app);
+  textbookAPI(app);
   authenticationAPI(app);
   userAPI(app);
 

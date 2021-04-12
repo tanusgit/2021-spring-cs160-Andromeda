@@ -45,7 +45,7 @@ crossorigin="anonymous"
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="http://localhost:3000/auth/google"
             id="navbarDropdown"
             role="button"
             data-bs-toggle="dropdown"

@@ -17,7 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Enable cors
 const corsOptions = {
-  origin: "*",
+  origin: "http://localhost:5500",
+  credentials: true,
 };
 app.use(cors(corsOptions));
 
@@ -33,6 +34,7 @@ app.use(passport.session());
 
 // Apply jwt
 app.use(
+  "/api/user",
   jwt({ secret: SECERT, getToken: (req) => req.cookies.token, algorithms: ["HS256"] }).unless({
     path: ["/auth/google/", "/auth/google/callback", "/api/textbook/all"],
   })
@@ -40,7 +42,7 @@ app.use(
 
 app.use(function (err, req, res, next) {
   if (err.name === "UnauthorizedError") {
-    return res.status(401).redirect("http://localhost:5500/prototype/frontend/index.html");
+    return res.status(401).send("Access Denied");
   }
 });
 
