@@ -17,7 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Enable cors
 const corsOptions = {
-  origin: "*",
+  origin: "http://localhost:5500",
+  credentials: true,
 };
 app.use(cors(corsOptions));
 
