@@ -21,6 +21,11 @@ const authAPI = (app) => {
     });
     return res.status(200).redirect(REDIRECT);
   });
+
+  app.get("/auth/google/logout", function (req, res) {
+    res.clearCookie("token");
+    return res.status(200).redirect(REDIRECT);
+  });
 };
 
 module.exports = authAPI;
