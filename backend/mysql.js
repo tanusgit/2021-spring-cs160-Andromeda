@@ -2,7 +2,7 @@ const mysql = require("mysql");
 
 var con = mysql.createConnection({
   host: "localhost",
-  user: "cs160",
+  user: "root",
   password: "password",
   database: "iBook",
 });
