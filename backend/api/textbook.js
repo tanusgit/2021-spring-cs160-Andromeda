@@ -39,7 +39,7 @@ const textbookAPI = (app) => {
   app.post("/api/textbook/create", (req, res) => {
     connection.query(`INSERT INTO textbook VALUES ("${req.body.id}", "${req.body.isbn}", "${req.body.publisher_name}", "${req.body.author_name}", "${req.body.year}", "${req.body.title}", "${req.body.price}", "${req.body.user_id}")`, function (err, rows, fields) {
       if (err) {return res.status(500).send("server error or input invalid");} 
-      res.status(200).send(req.body);
+      res.status(200).send("textbook created successfully");
     });
   });
   
