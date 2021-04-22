@@ -1,0 +1,30 @@
+.checkout-container {
+  height: 100vh !important;
+  display: flex;
+}
+
+.payment-section {
+  flex: 1.25;
+  padding: 10vh 12vw 10vh 12vw;
+}
+
+.order-section {
+  flex: 1;
+  background-color: #f3f4ed;
+}
+
+.address-form {
+  max-width: 620px !important;
+}
+
+.form-control {
+  font-size: 12px !important;
+}
+
+.placeorder-btn {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  padding: 8px 32px !important;
+  border: none !important;
+  background-color: #325288 !important;
+}
