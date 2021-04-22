@@ -11,6 +11,8 @@
 .order-section {
   flex: 1;
   background-color: #f3f4ed;
+  overflow-y: scroll;
+  padding: 4rem 4rem;
 }
 
 .address-form {
@@ -27,4 +29,34 @@
   padding: 8px 32px !important;
   border: none !important;
   background-color: #325288 !important;
+}
+
+.order-section-book-img {
+  object-fit: cover;
+  height: 4rem;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.order-section-subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-section-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-section-tax {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.badge {
+  margin-left: -6px;
+  margin-top: -4px;
 }
