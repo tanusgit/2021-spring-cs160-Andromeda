@@ -62,7 +62,7 @@ const textbookAPI = (app) => {
 
 
   //Update a textbook ISBN by id
-  app.put("/api/textbook/updateISBN", (req, res) => {
+  app.put("/api/textbook/update/ISBN", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -82,7 +82,7 @@ const textbookAPI = (app) => {
   });
   
   //Update a textbook title by id
-  app.put("/api/textbook/updateTitle", (req, res) => {
+  app.put("/api/textbook/update/title", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -102,7 +102,7 @@ const textbookAPI = (app) => {
   });
 
   //Update a textbook author name by id
-  app.put("/api/textbook/updateAuthorName", (req, res) => {
+  app.put("/api/textbook/update/author_name", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -122,7 +122,7 @@ const textbookAPI = (app) => {
   });
 
   //Update a textbook year by id
-  app.put("/api/textbook/updateYear", (req, res) => {
+  app.put("/api/textbook/update/year", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -142,7 +142,7 @@ const textbookAPI = (app) => {
   });
 
   //Update a textbook publisher name by id
-  app.put("/api/textbook/updatePublisherName", (req, res) => {
+  app.put("/api/textbook/update/publisher_name", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -162,7 +162,7 @@ const textbookAPI = (app) => {
   });
 
   //Update a textbook price by id
-  app.put("/api/textbook/updatePrice", (req, res) => {
+  app.put("/api/textbook/update/price", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
@@ -182,7 +182,7 @@ const textbookAPI = (app) => {
   });
 
   //Update a textbook user id by id
-  app.put("/api/textbook/updateUserID", (req, res) => {
+  app.put("/api/textbook/update/user_id", (req, res) => {
     try{
       if(req.body.id === undefined) {
         return res.status(500).send("update error: textbook id undefined");
