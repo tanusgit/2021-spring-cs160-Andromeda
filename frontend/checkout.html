@@ -27,70 +27,68 @@
 
   <body>
     <div class="checkout-container">
-        <div class="payment-section d-flex">
-            <form class="row g-3 address-form justify-content-center align-self-center">
+      <div class="payment-section d-flex flex-column">
+        <div class="form-wrapper">
+          <form class="row g-3 payment-form justify-content-center align-self-center">
+            <div>Payment</div>
+            <div class="col-md-8">
+              <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" class="form-control" id="creditnumber" required />
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="MM/YYYY" class="form-control" id="date" required />
+            </div>
+            <div class="col-md-8">
+              <input type="text" placeholder="Name" class="form-control" id="name" required />
+            </div>
+            <div class="col-md-4">
+              <input type="text" placeholder="CSV" class="form-control" id="csv" required />
+            </div>
+          </form>
+        </div>
+        <div form-wrapper>
+          <form class="row g-3 address-form justify-content-center align-self-center">
             <div>Shipping Address</div>
             <div class="col-md-6">
-              <input type="text" placeholder="First name" class="form-control" id="firstname" required>
+              <input type="text" placeholder="First name" class="form-control" id="firstname" required />
             </div>
             <div class="col-md-6">
-              <input type="text" placeholder="Last name" class="form-control" id="lastname" required>
+              <input type="text" placeholder="Last name" class="form-control" id="lastname" required />
             </div>
             <div class="col-md-12">
-                <input type="text" placeholder="Address" class="form-control" id="address" required>
+              <input type="text" placeholder="Address" class="form-control" id="address" required />
             </div>
             <div class="col-md-12">
-                <input type="text" placeholder="City" class="form-control" id="city" required>
+              <input type="text" placeholder="City" class="form-control" id="city" required />
             </div>
             <div class="col-md-6">
-                <input type="text" placeholder="Country" class="form-control" id="Country" required>
-              </div>
-              <div class="col-md-6">
-                <input type="text" placeholder="Postal" class="form-control" id="Postal" required>
-              </div>
-              <div class="col-md-12">
-                <input type="text" placeholder="Phone" class="form-control" id="phone" required>
+              <input type="text" placeholder="Country" class="form-control" id="Country" required />
+            </div>
+            <div class="col-md-6">
+              <input type="text" placeholder="Postal" class="form-control" id="Postal" required />
+            </div>
+            <div class="col-md-12">
+              <input type="text" placeholder="Phone" class="form-control" id="phone" required />
             </div>
             <div class="col-12">
               <button class="btn btn-block btn-primary placeorder-btn w-100" type="submit">Place Order</button>
             </div>
-          </form></div>
+          </form>
+        </div>
+        </div>
         <div class="order-section">
-          <div class="row py-3">
-            <div class="col-md-3 d-flex justify-content-center align-items-center">
-              <img class="order-section-book-img img-thumbnail" src="home.jpg"/> <span class="badge rounded-pill bg-danger align-self-start badge">9</span>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center align-items-center">
-              End of Mars
-            </div>
-            <div class="col-md-5 d-flex justify-content-end align-items-center">
-              $350
-            </div>
-          </div>
-          <div class="row py-3">
-            <div class="col-md-3 d-flex justify-content-center align-items-center">
-              <img class="order-section-book-img img-thumbnail" src="home.jpg"/> <span class="badge rounded-pill bg-danger align-self-start badge">9</span>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center align-items-center">
-              End of Mars
-            </div>
-            <div class="col-md-5 d-flex justify-content-end align-items-center">
-              $350
-            </div>
-          </div>
-          <hr class="mt-2 mb-3"/>
+          <hr class="mt-2 mb-3" />
           <div class="order-section-subtotal">
             <p>SUBTOTAL</p>
-            <p>$350</p>
+            <p class="order-section-subtotal-price">$350</p>
           </div>
           <div class="order-section-tax">
             <p>TAX</p>
-            <p>$350</p>
+            <p class="order-section-tax-price">$350</p>
           </div>
-          <hr class="mt-2 mb-3"/>
+          <hr class="mt-2 mb-3" />
           <div class="order-section-total">
             <p class="h5">TOTAL</p>
-            <p class="h5">$370</p>
+            <p class="h5 order-section-total-price">$370</p>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
 
 .payment-section {
   flex: 1.25;
-  padding: 10vh 12vw 10vh 12vw;
+  padding: 15vh 12vw 15vh 12vw;
 }
 
 .order-section {
@@ -15,7 +15,15 @@
   padding: 4rem 4rem;
 }
 
+.form-wrapper {
+  flex: 1;
+}
+
 .address-form {
+  max-width: 620px !important;
+}
+
+.payment-form {
   max-width: 620px !important;
 }
 
