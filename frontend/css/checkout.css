@@ -1,0 +1,70 @@
+.checkout-container {
+  height: 100vh !important;
+  display: flex;
+}
+
+.payment-section {
+  flex: 1.25;
+  padding: 15vh 12vw 15vh 12vw;
+}
+
+.order-section {
+  flex: 1;
+  background-color: #f3f4ed;
+  overflow-y: scroll;
+  padding: 4rem 4rem;
+}
+
+.form-wrapper {
+  flex: 1;
+}
+
+.address-form {
+  max-width: 620px !important;
+}
+
+.payment-form {
+  max-width: 620px !important;
+}
+
+.form-control {
+  font-size: 12px !important;
+}
+
+.placeorder-btn {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  padding: 8px 32px !important;
+  border: none !important;
+  background-color: #325288 !important;
+}
+
+.order-section-book-img {
+  object-fit: cover;
+  height: 4rem;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.order-section-subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-section-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-section-tax {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.badge {
+  margin-left: -6px;
+  margin-top: -4px;
+}
