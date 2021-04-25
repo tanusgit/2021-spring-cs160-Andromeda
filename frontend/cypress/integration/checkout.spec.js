@@ -1,10 +1,7 @@
-describe("TodoMVC", function () {
-  beforeEach(function () {
-    cy.visit("http::/localhost:8888/");
-    cy.get(".new-todo").type("buy some cheese");
-  });
+<reference types="cypress" />;
 
-  it.only("hide", function () {
-    cy.get(".todolist li").should("not.exist");
+context("Actions", () => {
+  beforeEach(() => {
+    cy.visit("http://127.0.0.1:5500/");
   });
 });
