@@ -1,6 +1,8 @@
 function getOrderFromLocalStorage() {
   for (var i = 0; i < localStorage.length; i++) {
-    var book = JSON.parse(localStorage.getItem(localStorage.key(i)));
+    var book = JSON.parse(
+      localStorage.getItem(localStorage.key(i))
+    );
     jQuery(document).ready(function () {
       $(".order-section").prepend(`
       <div class="row py-3">
@@ -21,7 +23,9 @@ function getPrice() {
   var tax = 0;
 
   for (var i = 0; i < localStorage.length; i++) {
-    var book = JSON.parse(localStorage.getItem(localStorage.key(i)));
+    var book = JSON.parse(
+      localStorage.getItem(localStorage.key(i))
+    );
     subTotal = book.price * book.count;
   }
   tax = subTotal * 0.0725;
