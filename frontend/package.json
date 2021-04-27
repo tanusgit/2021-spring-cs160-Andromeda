@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server --port=5500",
+    "test": "npx cypress run",
+    "test --browser": "npx cypress run -b chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.1.0",
+    "live-server": "^1.2.1"
+  }
+}
