@@ -1,3 +1,13 @@
+/**
+ * onClick listener for clear cart button
+ */
+$(document).ready(function () {
+  $("#clear-cart-btn").click(function () {
+    window.localStorage.clear();
+    window.location.reload();
+  });
+});
+
 function getOrderFromLocalStorage() {
   for (var i = 0; i < localStorage.length; i++) {
     var book = JSON.parse(
@@ -26,7 +36,7 @@ function getPrice() {
     var book = JSON.parse(
       localStorage.getItem(localStorage.key(i))
     );
-    subTotal = book.price * book.count;
+    subTotal += book.price * book.count;
   }
   tax = subTotal * 0.0725;
   total = tax + subTotal;
