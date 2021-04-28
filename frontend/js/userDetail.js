@@ -8,9 +8,10 @@ $.ajax({
       user = {
           
       }
-      for (var i = 0; i < response.length; i++) {
-        $("body").append($("<div> Book title: " + response[i].title + "</div>"));
-      }
+      // for (var i = 0; i < response.length; i++) {
+      //   $("body").append($("<div> Book title: " + response[i].title + "</div>"));
+      // }
+      $("username").text(user_id);
       $("username").text(user_name);
       $("email").text(user_email);
       $("phone").text(user_phone);
