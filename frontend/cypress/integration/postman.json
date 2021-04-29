@@ -1,0 +1,690 @@
+{
+	"info": {
+		"_postman_id": "506833b6-2ed0-4056-adb7-3f25c0d6fb7d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "textbook",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"isbn\":\"9780545790352\",\r\n \"title\":\"Harry Potter and the Sorcerer's Stone\",\r\n \"author_name\": \"J.K. Rowling\",\r\n \"year\": \"2000\",\r\n \"publisher_name\": \"Lorem ipsum\",\r\n \"price\": \"120.23\",\r\n \"user_id\": \"1\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"create"
+							]
+						},
+						"description": "create"
+					},
+					"response": []
+				},
+				{
+					"name": "Update all",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"isbn\":\"9780545790352\",\r\n \"title\":\"Harry Potter and the Sorcerer's Stone\",\r\n \"author_name\": \"J.K. Rowling\",\r\n \"year\": \"2000\",\r\n \"publisher_name\": \"Lorem ipsum\",\r\n \"price\": \"80\",\r\n \"user_id\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/update",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update user id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update ISBN",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update title",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update author_name",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update year",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update publisher_name",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update price",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"user_id\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/updateUserID",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"updateUserID"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/textbook/delete/99",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"textbook",
+								"delete",
+								"99"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"cart_id\":\"123456\",\r\n \"book_id\":\"33333\",\r\n \"buyer_id\": \"10\",\r\n \"seller_id\": \"22\",\r\n \"single_price\": \"123.45\",\r\n \"quantity\": \"5\",\r\n \"date\": \"2021-01-20 23:53:08\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"create"
+							]
+						},
+						"description": "create"
+					},
+					"response": []
+				},
+				{
+					"name": "Update all",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"cart_id\":\"123456\",\r\n \"book_id\":\"33333\",\r\n \"buyer_id\": \"10\",\r\n \"seller_id\": \"22\",\r\n \"single_price\": \"88\",\r\n \"quantity\": \"5\",\r\n \"date\": \"2021-01-20 23:53:08\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update cart_id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"cart_id\":\"12222\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/cart_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"cart_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update book_id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"book_id\":\"3657\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/book_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"book_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update buyer_id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"buyer_id\":\"2794\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/buyer_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"buyer_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update seller_id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"seller_id\":\"12975\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/seller_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"seller_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update single_price",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"cart_id\":\"12222\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/cart_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"cart_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update quantity",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"quantity\":\"23\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/quantity",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"quantity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update date",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": \"99\",\r\n \"date\": \"2019-01-20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/update/date",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"update",
+								"date"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/order/delete/99",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"delete",
+								"99"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
