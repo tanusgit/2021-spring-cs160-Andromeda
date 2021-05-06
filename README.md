@@ -24,6 +24,9 @@ Evan is a senior undergraduate student at San Jose State University, majoring in
 ## FAQ
 Please login using your google account.
 
+## License
+iBook.com
+
 ## User guide:
 Please click on the "show details" button on the home page under the picture of the book to get the details of the book.
 Please click on the "Home" button on the navabr to go to the homepage of this website.
