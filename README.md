@@ -34,6 +34,7 @@ Roadmap:
 We aim to release the next version of iBook with the search option for the books.
 
 Contributions:
+The developer team has built the product.
 
 Author:
 Tanusree Debnath
