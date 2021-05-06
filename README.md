@@ -46,5 +46,6 @@ Tanusree Debnath
 ## Developer team:
 Yulong Ran, Tanusree Debnath, William Tsai, Bowen Han, Nicholas Li
 
-
+## License
+iBook.com
 
