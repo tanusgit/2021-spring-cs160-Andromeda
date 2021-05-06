@@ -27,3 +27,19 @@ User guide:
 Please click on the "show details" button on the home page under the picture of the book to get the details of the book.
 Please click on the "Home" button on the navabr to go to the homepage of this website.
 
+Support:
+We will provide support if anybody wants to contribute to our project.
+
+Roadmap:
+We aim to release the next version of iBook with the search option for the books.
+
+Contributions:
+
+Author:
+Tanusree Debnath
+
+Developer team:
+Yulong Ran, Tanusree Debnath, William Tsai, Bowen Han, Nicholas Li
+
+
+
