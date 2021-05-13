@@ -28,3 +28,11 @@ Must install node modules
 ## Prerequisites
 
 Before you continue, ensure you have met the following requirements:
+
+* You have installed the latest version node modules
+* You are using a Linux or Mac OS machine, Windows.
+* You have a basic understanding of software development.
+
+## How to install 
+Go to the github repo.
+Copy the link from the git clone area of the github.
