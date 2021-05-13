@@ -36,3 +36,13 @@ Before you continue, ensure you have met the following requirements:
 ## How to install 
 Go to the github repo.
 Copy the link from the git clone area of the github.
+Open the folder using visual studio on your computer.
+
+## How to use the software
+The software is not completely developed yet. To use the project the developer needs to know full stack development and also have knowledge in Javascript, node js, HTML, CSS, and MySql.
+
+## How to contribute
+Anybody can contribute to the project by adding codes to the github repo. The contributor can ask permission for adding the code by emailing any of the developers of the project. 
+
+
+
