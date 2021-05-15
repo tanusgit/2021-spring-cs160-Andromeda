@@ -245,3 +245,7 @@ p {
 .text--center {
   text-align: center;
 }
+
+.google_btn:hover {
+  cursor: pointer;
+}
