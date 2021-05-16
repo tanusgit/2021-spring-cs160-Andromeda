@@ -1,8 +1,8 @@
 const mysql = require("mysql");
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
+  host: "host.docker.internal",
+  user: "cs160",
   password: "password",
   database: "iBook",
 });
