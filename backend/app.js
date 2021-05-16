@@ -25,8 +25,8 @@ app.use(cors(corsOptions));
 // Read cookies
 app.use(cookieParser());
 
-// // Establish MySQL Database Connection
-// connection.connect();
+// Establish MySQL Database Connection
+connection.connect();
 
 // Passport auth
 app.use(passport.initialize());
